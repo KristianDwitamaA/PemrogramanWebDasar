@@ -1,0 +1,109 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to right, #a8c0ff, #f0f8ff);
+  margin: 0;
+  padding: 40px 0;
+}
+
+.container {
+  width: 420px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+fieldset {
+  border: 2px solid #6fa3ef;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9fbff;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: #003366;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 10px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 6px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-top: 5px;
+  transition: all 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.5);
+  outline: none;
+}
+
+input[type="radio"] {
+  accent-color: #4a90e2;
+  margin-right: 4px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.submit-area {
+  text-align: center;
+  margin-top: 15px;
+}
+
+input[type="submit"] {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(74, 144, 226, 0.4);
+}
+
+input[type="submit"]:hover {
+  background-color: #2f6fca;
+  transform: scale(1.05);
+}
+
+.reservation-room p {
+  text-align: center;
+  font-weight: bold;
+  color: #003366;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
